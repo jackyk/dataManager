@@ -1,0 +1,3 @@
+create a form that adds users information (first,last name, gender, and DOB)
+Form can be able to add new users, update list and delete entry
+Records displayed on a table
