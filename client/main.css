@@ -78,7 +78,7 @@ td {
   /* margin: 4px 80px; */
   cursor: pointer;
 }
-.DELETE{
+.delete-items{
   background-color: #FF0000;
   border: none;
   color: white;
@@ -86,4 +86,7 @@ td {
   text-decoration: none;
   margin: 2px 45vw 60px;
   cursor: pointer;
+}
+.signUp{
+  margin-left: 45vw;
 }
