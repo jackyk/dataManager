@@ -12,15 +12,16 @@ Template.nameData.events({
   'click .delete'() {
     Names.remove(this._id);
   },
-'click .update'(){
+'click .update'(event){
+  // var id = event.target.id;
+  // var select = Names.findOne({"_id":id});
   var form = document.getElementById('myForm');
+
+  form.id.value =this._id;
   form.firstName.value =this.firstName;
   form.secondName.value =this.secondName;
   form.gender.value =this.gender;
   form.Bday.value =this.Bday;
 },
 
-'click .updateItems'(){
-  Names.insert(this._id, {$set:{firstName: form.firstName.value}})
-}
 });

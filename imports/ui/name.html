@@ -2,15 +2,19 @@
 
 
   <tr>
+    {{#if currentUser}}
     <td class="{{#if checked}} checked {{/if}}" >
       <input type="checkbox" checked="{{checked}}" class="toggle-checked" value="{{_id}}" />
     </td>
+    {{/if}}
     <td class="clickRow">{{firstName}}</td>
     <td class="clickRow">{{secondName}}</td>
     <td class="clickRow">{{gender}}</td>
     <td class="clickRow">{{Bday}}</td>
+    {{#if currentUser}}
       <td><button class="delete">&times;</button></td>
     <td><button type="button" class="update" name="update">Update</button></td>
+    {{/if}}
 
   </tr>
 

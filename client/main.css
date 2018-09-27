@@ -6,6 +6,7 @@ body{
 .container{
   max-width: 100%;
   background-color: #cccccc;
+  min-height: 100vh;
 
 }
 header{
