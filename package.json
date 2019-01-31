@@ -9,6 +9,12 @@
   },
   "dependencies": {
     "@babel/runtime": "7.0.0-beta.55",
+    "apollo-server-express": "^2.3.3",
+    "babel": "^6.23.0",
+    "bcrypt": "^3.0.3",
+    "graphql": "^14.1.1",
+    "graphql-iso-date": "^3.6.1",
+    "imports": "^1.0.0",
     "meteor-node-stubs": "^0.4.1",
     "npm": "^6.4.1"
   },
